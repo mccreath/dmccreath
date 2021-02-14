@@ -1,0 +1,84 @@
+body{ font-family:'Crimson Text',Georgia,serif;font-size:18px;color:#333; }
+h1,h2,h3{ font-family:'Roboto Condensed',sans-serif; }
+h1{ font-size:26px;margin:0; }
+h2{	font-size:20px;margin:0;	}
+h3{ color:#555;font-size:20px;margin-bottom:10px;margin-top:25px; }
+p{ margin-top:0; }
+a { color:#999; }
+a:hover { color:#c66;text-decoration:underline; }
+a.navigation { text-decoration:none; }
+a.navigation span { color:#333; }
+h2 a,
+h2 a:hover { color:#000;text-decoration:none; }
+#main {
+	line-height:1.3;
+	margin:0 auto 180px;
+	max-width:620px;
+	width:96%;
+}
+header{
+	border-bottom:1px solid #ff9500;
+	font-family:'Roboto Condensed',sans-serif;
+	margin-bottom:15px;
+	padding:10px 0 20px;
+	position:relative;
+}
+header h2{
+	color:#ff9500;/*#555;*/
+	font-size: 20px;
+}
+footer{
+	font-family:'Roboto Condensed',sans-serif;
+	margin-top:10px;
+	position:relative;
+}
+header p,footer p{ margin:0 0 5px 0; }
+.contact{ padding:5px; }
+section{
+	border-bottom:1px solid #ff9500;
+	margin: 0 0 15px 0;
+	padding: 0 0 15px 0;
+}
+
+.song{
+	font-family:'Roboto Condensed',sans-serif;
+	margin-bottom: 15px;
+}
+.song audio{
+	display:block;
+}
+
+div.cashmusic.soundplayer.playlist.container { 
+	border:1px solid #fff;
+	font-family:'Roboto Condensed',sans-serif;
+	width:98%;
+}
+
+div.cashmusic.soundplayer.playlist.nowplaying {width:80%;float:left;margin:2px 0 2px 10px;}
+div.cashmusic.soundplayer.playlist.playtime {margin:8px 10px 0 0;}
+div.cashmusic.soundplayer.playlist.toggletracklist {display:none;}
+div.cashmusic.soundplayer.playlist.tracklist {clear:both;height:auto;overflow:hidden;padding-top:12px;font-size:0.75em;line-height:2.25em;}
+div.cashmusic.soundplayer.playlist.seekbarcontainer {background-color:#666;}
+div.cashmusic.soundplayer.playlist.seekbar {background-color:#666;}
+div.cashmusic.soundplayer.playlist.controls {clear:both;margin:6px 0 0 10px;}
+div.cashmusic.soundplayer.playlist.position {background-color:#ccc;}
+div.cashmusic.soundplayer.playlist.prevtrack {cursor:pointer;width:20px;height:20px;background-color:#fff;float:left;background-position:center center;background-repeat:no-repeat;background-image:url(../music/player/previous-media.png);background-size:20px 20px;}
+div.cashmusic.soundplayer.playlist.playpause {cursor:pointer;width:20px;height:20px;background-color:#fff;float:left;margin:0 6px 0 6px;}
+div.cashmusic.soundplayer.playlist.nexttrack {cursor:pointer;width:20px;height:20px;background-color:#fff;float:left;background-position:center center;background-repeat:no-repeat;background-image:url(../music/player/next-media.png);background-size:20px 20px;}
+div.cashmusic.soundplayer.playlist.playpause.playing {background-color:#ff9500;background-position:center center;background-repeat:no-repeat;background-image:url(../music/player/pause.png);background-size:20px 20px;}
+div.cashmusic.soundplayer.playlist.playpause.paused {background-position:center center;background-repeat:no-repeat;background-image:url(../music/player/play.png);background-size:20px 20px;}
+div.cashmusic.soundplayer.playlist.tracklist ol {margin:0;padding:0;list-style:decimal-leading-zero inside none;}
+div.cashmusic.soundplayer.playlist.tracklist ol li {border-top:1px solid #666;padding:0 10px;}
+div.cashmusic.soundplayer.playlist.tracklist ol li.changetrack {cursor:pointer;}
+
+@media only screen and (min-width: 767px) {
+
+	h2 { font-size:22px;cursor: pointer }
+	#main { line-height:1.5;margin:20px auto 180px;	}
+	header{ padding-bottom:40px; }
+	section{ margin: 0 0 20px 0;padding: 0 0 20px 30px;	}
+	.contact { padding:0 0 0 30px; }
+
+	div.cashmusic.soundplayer.playlist.container { width:480px; }
+	
+}

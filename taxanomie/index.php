@@ -56,7 +56,7 @@
 	<style>
 		body { background:#DFDDDE;font-family: 'Crimson Text', serif; }
 		a { color:#0000cc; }
-		h1 { text-align:center;margin:80px 0 100px; }
+		h1 { text-align:center;margin:80px 0 80px; }
 		h2 { margin:0; }
 		#footer,.hint { font-size:12px;text-align:center;margin-bottom:50px; }
 		#whats-all-this-then { width:90%;max-width:580px;margin:0 auto 100px;padding:30px 0; }
@@ -66,7 +66,7 @@
 		.item img { display:block;width:100%; }
 		.sources { text-align:left;position:absolute;bottom:0;left:0;background:#fff;width:600px;z-index:10;display:none;padding:10px; }
 		.sources ul { font-family:monospace;font-weight:normal;font-size:12px;margin-left:0;padding-left:0; }
-		#source-links { width:90%;max-width:780px;padding:20px;background:#fff;margin:30px auto;overflow:hidden;display:none; }
+		#source-links { width:90%;max-width:780px;padding:20px;background:#fff;margin:30px auto;overflow:hidden; }
 		#source-links ol { list-style-type:upper-roman;font-family:Courier,monospace;font-size:75%; }
 	</style>
 </head>
@@ -117,124 +117,25 @@
 	<!--p><a href="">Source links</a>.</p-->
 </div>
 <div id="whats-all-this-then">
-	<p>The company where I work (Slack) has an anniversary party every year around the day that our product came out of its private beta in February, 2014. (This is in lieu of a holiday party, which I think is a pretty great idea. I mean, who needs another stupid holiday party? And how nice to have a lovely party with some friends in the middle of February!)</p>
-	<p>Anyway, this year (2016), the party was declared to have a 1920s theme, with recommendations of "Downton Abbey" and "Great Gatsby" for attire. I'm not much on Downton or Gatsby, but the '20s was an amazing time for art. Specifically, it was the time when the various experiments of Dada came to their zenith, and then the Dadaists transitioned to Surrealism. There is a <em>lot</em> to be discussed about both Dada and Surrealism in the context of 2016, but the artists of both groups produced a large percentage of my favorite art.</p>
-	<p>So I started playing around with Dada/Surrealist collages. Then I thought it would be nice to make them small enough to hand out at the party. While at the office supply store getting paper, I noticed these hang tags and thought they'd be the perfect size and format.</p> 
-	<p>I ended up making thirty of them, and took them to the party, but it never really seemed like the right time to hand them to people. There was too much else going on and it was dark so they would have been hard to see, and I didn't want to have to shout over the DJ to explain what I was handing to someone.</p>
-	<p>So now they are here, fed back into the web where I sourced the images in the first place.</p> 
 	<h2>Colophon</h2>
-	<p>All of the images came from Google searches. Where I can, I will provide sources.</p>
+	<!--<p>All of the images came from Google searches. Where I can, I will provide sources.</p>-->
 	<p>The lightbox for the images is from <a href="https://github.com/felixhagspiel/jsOnlyLightbox">https://github.com/felixhagspiel/jsOnlyLightbox</a>.</p>
 	<p>The text is set in <a href="https://www.google.com/fonts/specimen/Crimson+Text">Crimson Text</a> from Google Fonts.</p>
 	<p><a href="#footer" onclick="manageWhat();">Close this</a>.</p>
 </div>
-<div id="source-links">
-	<h2>Sources</h2>
-	<ol>
-		<li>
-			<a href="http://devilsartisan.ca/dingbats_section_brazil.html">http://devilsartisan.ca/dingbats_section_brazil.html</a><br>
-			<a href="http://www.123rf.com/photo_13770852_stock-photo.html">http://www.123rf.com/photo_13770852_stock-photo.html</a>
-		</li>
-		<li>
-			<a href="http://porcupinesquill.ca/blog/?p=1387">http://porcupinesquill.ca/blog/?p=1387</a><br>
-			<a href="http://devilsartisan.ca/dingbats_section_misc.html">http://devilsartisan.ca/dingbats_section_misc.html</a> (cormorant)<br>
-			<a href="http://devilsartisan.ca/dingbats_section_brazil.html">http://devilsartisan.ca/dingbats_section_brazil.html</a> (toucan)
-		</li>
-		<li>
-		http://devilsartisan.ca/dingbats_section_brazil.html (parrot)<br>
-		http://devilsartisan.ca/dingbats_section_misc.html (seated man)
-		</li>
-		<li>
-		http://devilsartisan.ca/dingbats_section_brazil.html (monkey)<br>
-		http://devilsartisan.ca/dingbats_section_misc.html (seated man)
-		</li>
-		<li>
-		http://devilsartisan.ca/dingbats_section_brazil.html (monkey)<br>
-		http://devilsartisan.ca/dingbats_section_misc.html (seated man)
-		</li>
-		<li>
-		http://museumvictoria.com.au/caughtandcoloured/sharks.aspx (men in boat)<br>
-		http://etc.usf.edu/clipart/12200/12270/chkwillwidow_12270.htm (bird)
-		</li>
-		<li>
-		https://commons.wikimedia.org/wiki/File:Engraved_portrait_of_Marie_Josephine_Louise_of_Savoy_-_18th_century.jpg (portrait)<br>
-		https://commons.wikimedia.org/wiki/File:Leonids-1833.jpg (background)<br>
-		https://www.pinterest.com/pin/60306082480356979/ (skull)
-		</li>
-		<li>
-		http://www.hps.cam.ac.uk/starry/armillpoems.html (sphere)<br>
-		http://www.fotosearch.com/CSP697/k6976564/ (octopus)
-		</li>
-		<li>
-		https://www.pinterest.com/pin/60306082480356979/ (skull)<br>
-		http://vintageephemera.blogspot.com/2010/11/engraved-illustration-insect-vivarium.html (vivarium)
-		</li>
-		<li>
-		https://commons.wikimedia.org/wiki/File:Engraved_portrait_of_Marie_Josephine_Louise_of_Savoy_-_18th_century.jpg (face)<br>
-		https://www.pinterest.com/pin/60306082480356979/ (skull)
-		</li>
-	</ol>
-</div>
-<!-- 
-01.	http://devilsartisan.ca/dingbats_section_brazil.html 
-		http://www.123rf.com/photo_13770852_stock-photo.html (3 credits/40 credits, $39)
-02. http://porcupinesquill.ca/blog/?p=1387
-		http://devilsartisan.ca/dingbats_section_misc.html (cormorant)
-		http://devilsartisan.ca/dingbats_section_brazil.html (toucan)
-03. http://devilsartisan.ca/dingbats_section_brazil.html (parrot)
-		http://devilsartisan.ca/dingbats_section_misc.html (seated man)
-04. http://devilsartisan.ca/dingbats_section_brazil.html (monkey)
-		http://devilsartisan.ca/dingbats_section_misc.html (seated man)
-05. http://devilsartisan.ca/dingbats_section_brazil.html (monkey)
-		http://devilsartisan.ca/dingbats_section_misc.html (seated man)
-06. http://museumvictoria.com.au/caughtandcoloured/sharks.aspx (men in boat)
-		http://etc.usf.edu/clipart/12200/12270/chkwillwidow_12270.htm (bird) (http://etc.usf.edu/clipart/info/license)
-07. https://commons.wikimedia.org/wiki/File:Engraved_portrait_of_Marie_Josephine_Louise_of_Savoy_-_18th_century.jpg (portrait)
-		https://commons.wikimedia.org/wiki/File:Leonids-1833.jpg (background)
-		https://www.pinterest.com/pin/60306082480356979/ (skull)
-08. http://www.hps.cam.ac.uk/starry/armillpoems.html (sphere)
-		http://www.fotosearch.com/CSP697/k6976564/ (octopus) ($3.00)
-09. https://www.pinterest.com/pin/60306082480356979/ (skull)
-		http://vintageephemera.blogspot.com/2010/11/engraved-illustration-insect-vivarium.html (vivarium)
-10. https://commons.wikimedia.org/wiki/File:Engraved_portrait_of_Marie_Josephine_Louise_of_Savoy_-_18th_century.jpg (face)
-		https://www.pinterest.com/pin/60306082480356979/ (skull)
-11. http://www.aradergalleries.com/detail.php?id=4133 (claw)
-		
-12.
-13.
-14.
-15.	http://etc.usf.edu/clipart/12200/12270/chkwillwidow_12270.htm (snake & branch) (http://etc.usf.edu/clipart/info/license)
-16.
-17.
-18. https://commons.wikimedia.org/wiki/File:Leonids-1833.jpg (wing background)
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.	http://etc.usf.edu/clipart/12200/12270/chkwillwidow_12270.htm (wing) (http://etc.usf.edu/clipart/info/license)
-27.
-28.
-29.
-30. http://devilsartisan.ca/dingbats_section_misc.html (cobra)
-		http://www.hps.cam.ac.uk/starry/armillpoems.html (text panel)
-		
--->
 <script src="js/lightbox.min.js" type="text/javascript"></script>
 <script>
-	var what = document.getElementById('whats-all-this-then');
-	what.style.display = "none";
-	
-	function manageWhat(){
-		if(what.style.display == "none"){
-			what.style.display = "block";
-		} else {
-			what.style.display = "none";
-		}
-		return false;
-	}
+	// var what = document.getElementById('whats-all-this-then');
+	// what.style.display = "none";
+	// 
+	// function manageWhat(){
+	// 	if(what.style.display == "none"){
+	// 		what.style.display = "block";
+	// 	} else {
+	// 		what.style.display = "none";
+	// 	}
+	// 	return false;
+	// }
 	
 	
 	var lightbox = new Lightbox();
@@ -246,13 +147,13 @@
 	}
 	lightbox.load(lightboxOptions);
 
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-73791-1', 'auto');
-  ga('send', 'pageview');
+//   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+//   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+//   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+//   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+// 
+//   ga('create', 'UA-73791-1', 'auto');
+//   ga('send', 'pageview');
 
 </script>
 </body>
